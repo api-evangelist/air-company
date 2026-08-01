@@ -1,0 +1,53 @@
+generated: '2026-07-31'
+method: probed
+source: live GET probes of the /.well-known/ and contract-discovery surface
+host: https://www.aircompany.com
+note: >-
+  Contract discovery pass 2026-07-31 found NO machine-readable surface. Air Company
+  (AIRCO) publishes a marketing site (Next.js, Sanity CMS) plus a Shopify-backed
+  merchandise shop; there is no API host, developer portal, docs host, OpenAPI,
+  GraphQL, MCP server or A2A agent card. Every probe below returned an HTTP 404
+  whose body was the Next.js HTML error shell, not a document. No 200 responses,
+  therefore no raw files were saved and no WellKnown/APICatalog pointer was wired
+  (recording 404s must not award the well_known_catalog check).
+hosts_probed:
+- aircompany.com
+- www.aircompany.com
+subdomains_probed:
+- {host: api.aircompany.com, dns: NXDOMAIN}
+- {host: developer.aircompany.com, dns: NXDOMAIN}
+- {host: docs.aircompany.com, dns: NXDOMAIN}
+- {host: dev.aircompany.com, dns: NXDOMAIN}
+- {host: app.aircompany.com, dns: NXDOMAIN}
+- {host: portal.aircompany.com, dns: NXDOMAIN}
+- {host: status.aircompany.com, dns: NXDOMAIN}
+- {host: trust.aircompany.com, dns: NXDOMAIN}
+- {host: shop.aircompany.com, dns: resolves, https: connection-failed, http: 404}
+documents:
+- {path: /.well-known/security.txt, status: 404}
+- {path: /.well-known/openid-configuration, status: 404}
+- {path: /.well-known/oauth-authorization-server, status: 404}
+- {path: /.well-known/api-catalog, status: 404}
+- {path: /.well-known/ai-plugin.json, status: 404}
+- {path: /.well-known/agent-card.json, status: 404}
+- {path: /.well-known/agent.json, status: 404}
+contract_discovery:
+- {path: /openapi.json, status: 404, parsed_as_spec: false}
+- {path: /openapi.yaml, status: 404, parsed_as_spec: false}
+- {path: /swagger.json, status: 404, parsed_as_spec: false}
+- {path: /api-docs, status: 404, parsed_as_spec: false}
+- {path: /llms.txt, status: 404}
+- {path: /robots.txt, status: 404}
+- {path: /sitemap.xml, status: 404}
+- {path: /products.json, status: 404, note: 'Shopify storefront JSON not exposed on the site host'}
+- {path: /collections.json, status: 404}
+- {path: /blog/rss.xml, status: 404}
+- {path: /rss.xml, status: 404}
+- {path: /feed.xml, status: 404}
+graphql: none-found
+mcp: none-found
+a2a: none-found
+github_org: >-
+  No Air Company / AIRCO GitHub organization found. github.com/aircompany is an
+  unrelated Japanese firm (株式会社エアー, air.co.jp, 0 public repos);
+  github.com/Air-Company is a dormant 2018 account with one unrelated repo.

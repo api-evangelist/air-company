@@ -1,0 +1,36 @@
+# Air Company (AIRCO)
+
+> Air Company, which operates as AIRCO, is a carbon conversion technology company founded in 2017 by Gregory Constantine and Dr. Stafford Sheehan. Its Carbon Conversion Reactor combines captured CO2 and green hydrogen with renewable energy to produce carbon-negative alcohols and fully formulated synthetic fuels, sold and licensed under the AIRMADE brand. Air Company does not publish a public API, developer portal, or machine-readable API contract.
+
+## API surface
+
+- No public API. A contract-discovery pass on 2026-07-31 probed both site hosts and eight candidate API/docs subdomains for OpenAPI, Swagger, GraphQL, MCP, AsyncAPI, llms.txt and `/.well-known/*` documents; every probe returned HTTP 404 or NXDOMAIN. See `well-known/air-company-well-known.yml` for the recorded evidence.
+
+## Products
+
+- [AIRMADE SAF](https://www.aircompany.com/technology): Sustainable aviation fuel synthesized from CO2 and green hydrogen.
+- [AIRMADE Ethanol / Methanol / Diesel / Rocket Fuel](https://www.aircompany.com/technology): Licensable catalytic process technologies for synthetic alcohols and fuels.
+- [AIRCO MAD Fuel System](https://www.aircompany.com/technology): Modular, shipping-container-scale fuel production system.
+- [AIRCO SAF Factory](https://www.aircompany.com/technology): Factory-scale synthetic aviation fuel production facility.
+- [AIRCO Goods](https://www.aircompany.com/shop): Shopify-backed merchandise shop.
+
+## Company
+
+- [Home](https://www.aircompany.com/): Carbon conversion technology for synthetic fuels.
+- [About](https://www.aircompany.com/company): Founding, mission, partners and investors.
+- [Technology](https://www.aircompany.com/technology): Carbon conversion reactor and manufacturing systems.
+- [Blog](https://www.aircompany.com/blog): Company writing.
+- [Press](https://www.aircompany.com/press): Press coverage and announcements.
+- [Careers](https://www.aircompany.com/careers): Open roles.
+- [Contact](https://www.aircompany.com/contact): Partnership and general enquiries.
+
+## Legal
+
+- [Terms of Use](https://www.aircompany.com/terms-of-use)
+- [Privacy Policy](https://www.aircompany.com/privacy-policy)
+
+## API Evangelist artifacts
+
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/air-company/refs/heads/main/security/air-company-domain-security.yml): Probed TLS, HSTS, DNSSEC, CAA, SPF and DMARC posture.
+- [Well-known / contract discovery record](https://raw.githubusercontent.com/api-evangelist/air-company/refs/heads/main/well-known/air-company-well-known.yml): Full probe log for the 2026-07-31 pass.
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/air-company/refs/heads/main/apis.yml): Machine-readable index of this company profile.
