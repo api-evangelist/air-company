@@ -14,6 +14,17 @@ description: 'Air Company (AIRCO) is a carbon conversion technology company foun
   include Alaska Airlines, Carbon Direct, In-Q-Tel and Toyota Ventures. Air Company
   publishes no public API, developer portal or machine-readable API contract as of
   the 2026-07-31 enrichment pass.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://cdn.sanity.io/images/l7wxq3gx/production/98485e32e23d2bd1021ee876928f9d987df7ea40-1200x630.jpg
 url: https://raw.githubusercontent.com/api-evangelist/air-company/refs/heads/main/apis.yml
 x-type: company
