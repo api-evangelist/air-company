@@ -1,4 +1,4 @@
-# Air Company (AIRCO)
+# Air Company
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,19 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Air Company, operating as AIRCO, is a carbon conversion technology company founded in 2017 by Gregory Constantine and Dr. Stafford Sheehan. Its Carbon Conversion Reactor combines captured CO2 and green hydrogen with renewable energy to produce carbon-negative alcohols and fully formulated synthetic fuels, licensed and sold under the AIRMADE brand (SAF, ethanol, methanol, diesel, rocket fuel) and deployed via the AIRCO MAD Fuel System and AIRCO SAF Factory.
+Air Company (AIRCO) is a carbon conversion technology company founded in 2017 by Gregory Constantine and Dr. Stafford Sheehan. Its patented Carbon Conversion Reactor mimics photosynthesis, combining captured CO2, water and green hydrogen with renewable energy to produce carbon-negative alcohols and fully formulated synthetic fuels. The company licenses its catalytic process technologies and designs deployable production systems, from the container-scale AIRCO MAD Fuel System to the AIRCO SAF Factory. Product lines are branded AIRMADE and span sustainable aviation fuel (SAF), ethanol, methanol, diesel and rocket fuel, with earlier consumer validation products including AIR Vodka and AIR Eau de Parfum. Partners and customers include the U.S. Department of Defense, U.S. Air Force, Department of Energy and NASA, alongside aviation partners such as Virgin, Air France-KLM, JetBlue and Air Canada; strategic investors include Alaska Airlines, Carbon Direct, In-Q-Tel and Toyota Ventures. Air Company publishes no public API, developer portal or machine-readable API contract as of the 2026-07-31 enrichment pass.
 
-- https://www.aircompany.com/
-- Secondary market listing: https://forgeglobal.com/air-company_stock/
+**Areas:** Company · Carbon Capture · Climate Technology · Sustainable Aviation Fuel · Synthetic Fuels · Energy · Advanced Manufacturing · Chemicals · Defense
 
-## API surface
+## Air Company on APIs.io
 
-**None found.** A contract-discovery pass on 2026-07-31 probed both site hosts and eight candidate API/docs subdomains for OpenAPI, Swagger, GraphQL, MCP, AsyncAPI, `llms.txt` and `/.well-known/*` documents. Every probe returned HTTP 404 or NXDOMAIN, and no Air Company GitHub organization exists. The full probe log is recorded in `well-known/air-company-well-known.yml`.
+Everything profiled for Air Company is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/air-company/](https://apis.io/providers/air-company/)** — or go straight to one of the APIs or properties below.
 
-## Artifacts
+### Published properties
 
-| Artifact | File | Method |
-|---|---|---|
-| Domain security | `security/air-company-domain-security.yml` | probed |
-| Contract discovery / well-known record | `well-known/air-company-well-known.yml` | probed |
-| llms.txt | `llms/air-company-llms.txt` | generated |
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Air Company Domain Security](https://apis.io/security/air-company/air-company-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.aircompany.com/)
+- [Blog](https://www.aircompany.com/blog)
+- [Terms of service](https://www.aircompany.com/terms-of-use)
+- [Privacy policy](https://www.aircompany.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 10.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.5** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/air-company/](https://apis.io/providers/air-company/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Air Company: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/air-company/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
